@@ -15,7 +15,7 @@ beforeEach(() => {
       removeExpense={removeExpense}
       history={history}
     />);
-})
+});
 
 test('should render EditExpensePage correctly', () => {
   expect(wrapper).toMatchSnapshot();
@@ -33,4 +33,4 @@ test('should handle removeExpense', () => {
   expect(removeExpense).toHaveBeenLastCalledWith({
     id: expenses[0].id
   });
-})
+});
