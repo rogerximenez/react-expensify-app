@@ -10,11 +10,10 @@ exports[`should render ExpenseListItem 1`] = `
       Gum
     </h3>
   </Link>
-  <div>
-    195
-  </div>
-  <div>
-    0
-  </div>
+  <p>
+    $1.95
+    -
+    December 31st, 1969
+  </p>
 </div>
 `;
