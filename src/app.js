@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import AppRouter from './routers/AppRouter';
 import configureStore from './store/configureStore'
 import * as amplitude from '@amplitude/analytics-browser';
-import { addExpense } from './actions/expenses';
+import { startSetExpenses } from './actions/expenses';
 import { setTextFilter } from './actions/filters';
 import getVisibleExpenses from './selectors/expenses';
 import 'normalize.css/normalize.css'
@@ -21,4 +21,8 @@ const jsx = (
 );
 
 const container = document.getElementById('app');
-ReactDOM.render(jsx, container);
+ReactDOM.render(<p>Loading...</p>, container);
+
+store.dispatch(startSetExpenses()).then(() => {
+  ReactDOM.render(jsx, container);
+});
