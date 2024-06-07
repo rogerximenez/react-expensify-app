@@ -9,21 +9,21 @@ exports[`should render Header correctly 1`] = `
     activeClassName="is-active"
     ariaCurrent="true"
     exact={true}
-    to="/"
+    to="/dashboard"
   >
     Dashboard
   </NavLink>
   <NavLink
     activeClassName="is-active"
     ariaCurrent="true"
-    to="/create"
+    to="/dashboard/create"
   >
     Create Expense
   </NavLink>
   <NavLink
     activeClassName="is-active"
     ariaCurrent="true"
-    to="/help"
+    to="/dashboard/help"
   >
     Help
   </NavLink>
