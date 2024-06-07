@@ -5,7 +5,9 @@ exports[`should render the Login Page 1`] = `
   <h1>
     Log In To Your Account
   </h1>
-  <button>
+  <button
+    onClick={[Function]}
+  >
     Login
   </button>
 </div>
