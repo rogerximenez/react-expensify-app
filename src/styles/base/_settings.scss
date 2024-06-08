@@ -3,6 +3,8 @@ $dark-gray: hsl(0, 0, 13%);
 $gray: hsl(0, 0, 29%);
 $light-gray: hsl(0, 0, 45%);
 $very-light-gray: hsl(0, 0%, 97%);
+$purple: #6200EE;
+$dark-blue: #364051;
 
 // Spacing
 $m-size: 1.6rem;
@@ -10,6 +12,9 @@ $s-size: $m-size * .75;
 $l-size: $m-size * 2;
 $xl-size: $m-size * 3;
 $desktop-breakpoint: 45rem;
+
+// Font Size
+$font-size-large: 1.8rem;
 
 // shadows
 $box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);

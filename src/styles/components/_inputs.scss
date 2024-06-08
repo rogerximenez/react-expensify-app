@@ -1,0 +1,18 @@
+.text-input {
+  box-shadow: $input-shadow;
+  height: 50px;
+  padding: $s-size;
+  font-size: $font-size-large;
+  font-weight: 300;
+  border: 0.25px solid $light-gray;
+  border-radius: 4px;
+}
+
+.select {
+  @extend .text-input;
+}
+
+.textarea {
+  @extend .text-input;
+  height: 10rem;
+}

@@ -1,8 +1,26 @@
 .btn-primary {
-  background: #6200EE;
+  background: $purple;
   color: white;
   border-radius: 4px;
-  padding: $m-size $xl-size;
+  font-weight: 500;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 1;
+  font-size: $font-size-large;
+  padding: $m-size $l-size;
   border: none;
   box-shadow: $box-shadow;
+}
+
+.btn-secondary {
+  @extend .btn-primary;
+  background: $very-light-gray;
+  color: $dark-gray;
+  padding: $s-size $m-size;
+}
+
+.btn-link {
+  background: none;
+  box-shadow: none;
+  font-weight: 400;
 }
