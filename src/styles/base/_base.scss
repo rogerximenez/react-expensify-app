@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+
 html {
   font-size: 62.5%;
 }
 
 body {
   color: $dark-gray;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Poppins, Helvetica, Arial, sans-serif;
   font-size: $m-size;
   line-height: 1.6;
 }
@@ -18,4 +20,14 @@ button {
 
 .is-active {
   font-weight: bold;;
+}
+
+.primary-text {
+  color: $dark-gray;
+  font-weight: 700;
+}
+
+.secondary-text {
+  color: $gray;
+  font-weight: 400;
 }

@@ -1,5 +1,8 @@
 // colors
-$dark-gray: #333;
+$dark-gray: hsl(0, 0, 13%);
+$gray: hsl(0, 0, 29%);
+$light-gray: hsl(0, 0, 45%);
+$very-light-gray: hsl(0, 0%, 97%);
 
 // Spacing
 $m-size: 1.6rem;
@@ -7,3 +10,7 @@ $s-size: $m-size * .75;
 $l-size: $m-size * 2;
 $xl-size: $m-size * 3;
 $desktop-breakpoint: 45rem;
+
+// shadows
+$box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+$input-shadow: inset 0 2px 4px 0 hsla(0, 0%, 0%, 0.08);

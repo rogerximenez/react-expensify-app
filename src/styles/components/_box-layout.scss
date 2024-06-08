@@ -9,11 +9,12 @@
 }
 
 .box-layout__box {
-  background: fade-out(white, .15);
+  background: fade-out(white, .1);
   border-radius: 6px;
   text-align: center;
   width: 30rem;
   padding: $xl-size $l-size;
+  box-shadow: $box-shadow;
 }
 
 .box-layout__title {
