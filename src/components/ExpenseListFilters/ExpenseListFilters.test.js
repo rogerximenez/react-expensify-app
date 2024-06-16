@@ -1,7 +1,7 @@
 import React from "react";
 import { shallow } from "enzyme";
-import { ExpenseListFilter } from "../../components/ExpenseListFilters";
-import { filters, altFilters } from "../fixtures/filters"
+import { ExpenseListFilter } from "./ExpenseListFilters";
+import { filters, altFilters } from "../../tests/fixtures/filters"
 import moment from "moment";
 
 let setTextFilter, sortByDate, sortByAmount, setStartDate, setEndDate, wrapper;

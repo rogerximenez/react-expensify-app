@@ -2,8 +2,8 @@ import React from "react";
 import { connect } from "react-redux";
 import { Link } from 'react-router-dom'
 import numeral from "numeral";
-import expensesTotal from "../selectors/expenses-total";
-import selectExpenses from '../selectors/expenses'
+import expensesTotal from "../../selectors/expenses-total";
+import selectExpenses from '../../selectors/expenses'
 
 
 export const ExpensesSummary = ({ expensesCount, expensesTotal }) => {
